@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my aj</title>
+</head>
+<body>
+ <h1>The Main Language of the Web Page </h1>
+ <p>HTML is the standerd markup language for creating webpage 
+HTML describe  the standerd of a webpage and consists of a series of a element.HTML elements tell the browser how to display the content .  </p>
+
+
+
+
+    
+</body>
+</html>

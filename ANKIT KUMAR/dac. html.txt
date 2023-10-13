@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+ <body>
+<br> <p>This is the first paragraph</p><br>
+ <b><p>This is the second paragraph</p></b>
+<strong> <p>This is the third paragraph</p></strong>
+ </body>
+</html>
