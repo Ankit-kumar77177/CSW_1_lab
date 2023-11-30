@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+ $("#flip").click(function(){
+ $("#panel").slideToggle("slow");
+  
+ });
+});
+</script>
+<style> 
+#panel,	#flip	{
+padding: 10px;
+text-align: left;
+background-color:yellow;
+border: solid 5px red;
+}
+#panel {
+padding: 60px;
+display: none;
+background-color: aqua;
+}
+</style>
+</head>
+<body>
+<div id="flip">When	this area	is clicked, a panel	emerges.</div>
+<div id="panel">The panel greets the user with Happy Diwali!!</div>
+</body>
+</html>

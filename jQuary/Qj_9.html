@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+ $("button").click(function(){
+ $("#1").fadeToggle(2000);
+ $("#2").fadeToggle(4000);
+ $("#3").fadeToggle(7000);
+ });
+});
+</script>
+</head>
+<body>
+<p>Applying toggle effect on each box with different timing.</p>
+<button>Hit the button to get the fadeToggle effect.</button><br><br>
+<div id="1" style="width:40px;height:60px;display:none;background-color:black;">
+</div><br>
+<div id="2" style="width:40px;height:60px;display:none;background-color:yellow;">
+</div><br>
+<div id="3" style="width:40px;height:60px;display:none;background-color:aqua;">
+</div>
+</body>
+</html>
